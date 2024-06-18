@@ -88,7 +88,7 @@ DATA_YAML_PATH = '/content/drive/MyDrive/dataset3/data.yaml'
 
 from autodistill_yolov8 import YOLOv8
 
-target_model = YOLOv8("yolov8n.pt")
+target_model = YOLOv8("yolov8l.pt")
 target_model.train(DATA_YAML_PATH, epochs=50)
 
 """# EVALUATION"""
